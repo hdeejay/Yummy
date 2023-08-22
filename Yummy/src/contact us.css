@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+li,
+a,
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  ;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  /* padding: t/b, l/r */
+  padding: 30px 10%;
+}
+
+
+.nav_links li a {
+  transition: all 0.3s ease-in-out;
+
+}
+
+.nav_links li a:hover {
+  color: #f5452a;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(245, 69, 42, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(245, 69, 42, 0.8);
+}
+
+/* Body layout*/
+.background {
+    width: 1200px;
+    height: 782px;
+    opacity: 0.4;
+}
+.email {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 1200px;
+    top: 600px;
+
+}
+.phone {
+    position: absolute;
+    transform: rotate(235deg);
+    width: 126px;
+    height: 230px;
+    left: 1550px;
+    top: 400px;
+}
+.contact-heading {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Poppins, Helvetica, sans-serif;
+    color: #000000;
+
+
+}
+.information {
+    position: absolute;
+    top: 200px;
+    font-family: Poppins, Helvetica, sans-serif;
+    width: 800px;
+    font-size: 20px;
+    left: 150px;
+}
+.contact-information {
+    position: absolute;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 20px;
+    top: 300px;
+    width: 800px;
+    left: 150px;
+}
+
+
+/* Footer */
+Footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #333333ED;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+}
+.links-foot
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+  gap: 500px;
+}
+
+.copyright
+{
+  margin: 0px 50px 0px 50px;
+}
+
+.Footer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

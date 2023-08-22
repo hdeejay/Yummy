@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="login.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="contact logo.png" alt="logo" />
+      <nav>
+        <ul class="nav_links">
+          <li><a href="post.html">Recipes</a></li>
+          <li><a href="about.html">Trending</a></li>
+          <li><a href="create.html">Create</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h1>Login</h1>
+      <h2>
+        Why log in? Logging in allows you to: 
+      </h2>
+      <h3>-Save recipes for later viewing
+        anywhere, anytime. 
+      </h3>
+      <br>
+      <h4>-Allows you to upload your own recipes.
+      </h4>
+      <input
+      type="text"
+      class="username"
+      name="usernames"
+      placeholder="example"
+      required
+      />
+      <input
+      type="password"
+      class="password"
+      name="passwords"
+      placeholder="password"
+      required
+      />
+      <button type="submit" class="submit" onclick="error_checking()">Login</button>
+      <h5 id="error" class="errors"> </h5>
+
+      <a href="sign up page.html" class="no_account">Don't have an account?</a>
+      <script src="login.js"></script>
+    </div>
+  </body>
+</html>
