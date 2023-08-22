@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inbox.css">
+    <title>Indox</title>
+</head>
+
+<body>
+    <header>
+        <a href="homepage.html"><img class="logo" src="contact logo.png" alt="logo"></a>
+        <nav>
+          <ul class="nav_links">
+            <li><a href="post.html">Recipes</a></li>
+            <li><a href="about.html">Trending</a></li>
+            <li><a href="create.html">Create</a></li>
+          </ul>
+        </nav>
+        <a class="login" href="login.html"><button>Login</button></a>
+      </header>
+    <div class="body">
+        <div class="left-side">
+            <a class="inbox" href="inbox.html"><h2> Inbox</h2></a>
+            <button type="button" class="new" onclick="new_message()">New message</button>
+            <h4><a class="all-mails" href="javascript:void(0);" onclick="all_mails()">All Mails</a></h4>
+            <h4><a href="javascript:void(0);" class="important-message" onclick="Important_email()">Important message</a></h4>
+            <h4><a href="javascript:void(0);" class="sent-message" onclick="generate_sent_emails()"> Sent messages</a></h4>
+        </div>
+        <div class="emails" >
+
+        </div>
+        <div class="email">
+        </div>
+        <button type="button" class="importants" onclick="Mark_Important_email()">Important</button>
+        <button type="button" class="go_back" onclick="back_page()"> Go Back</button>
+
+    </div>
+    <script type="text/javascript" src="inbox.js"></script>
+</body>
+
+</html>

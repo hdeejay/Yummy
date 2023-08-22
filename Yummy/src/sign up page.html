@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="sign up page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+  </head>
+    <body>
+      <header>
+        <img class="logo" src="contact logo.png" alt="logo">
+        <nav>
+          <ul class="nav_links">
+            <li><a href="post.html">Recipes</a></li>
+            <li><a href="about.html">Trending</a></li>
+            <li><a href="create.html">Create</a></li>
+          </ul>
+        </nav>
+        <a class="login" href="login.html"><button>Login</button></a>
+      </header>
+      <div>
+        <h1>Create account</h1>
+        <h2>
+          Why sign up? Signing up allows you to: 
+        </h2>
+        <h3>-Save recipes for later viewing anywhere, anytime. 
+        </h3>
+        <h4>-Allows you to upload your own recipes.
+        </h4>
+  
+        <form action="sign up.php" method="POST">
+          <input type="text" class="username" name="username" placeholder="example" required>
+          <input type="email" class="email" name="email" placeholder="example@gmail.com" required>
+          <input type="password" class="password" name="password" required placeholder="password" required>
+          <input type="text" class="name" name="name" required placeholder="John Smith" required>
+          <button type="submit" class="submit">Sign up</button>
+        </form>
+        <a href="login.html" class="have_account">Have an account?</a>
+        <!-- <script src="test.js"></script> -->
+      </div>
+    </body>
+
+</html>
